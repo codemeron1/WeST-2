@@ -1,0 +1,6 @@
+label, select, input {
+    display: block;
+    margin: 5px;
+    width: 150px;
+    padding: 10px;
+}
