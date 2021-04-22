@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'opensans';
+    src: url("font/opensans/open-sans-v18-latin-regular.eot?#iefix") format("embedded-opentype"), 
+         url("font/opensans/open-sans-v18-latin-regular.woff2") format("woff2"), 
+         url("font/opensans/open-sans-v18-latin-regular.woff") format("woff"), 
+         url("font/opensans/open-sans-v18-latin-regular.ttf") format("truetype");
+    font-weight: normal;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    font-family: 'opensans';
+    height: 100%;
+    width: 100%;
+}
+div.container{
+    height: 100%;
+}
+div.header{
+    height: 50px;
+    padding-left: 10px;
+    background-color: #226CCF;
+    display: flex;
+    align-items: center;
+}
+div.header .left {
+    flex: auto;
+    width: 100px;
+}
+div.header .right{
+    flex: auto;
+}
+div.left #icon{
+    height: 25px;
+}
+div.left #name{
+    height: 35px;
+}
+div.right{
+    color: #ffff;
+    padding-right: 30px;
+    text-align: right;
+}
+div.right span{
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+}
+div.right span.active{
+    background-color: chocolate;
+    border-radius: 5px;
+    padding: 5px;
+}
+div.content{
+    display: flex;
+    justify-content: center;
+}
+div.content .quiz{
+    text-align: center;
+    margin-top: 80px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 15px
+}
+div.content .quiz span{
+   font-size: 25px;
+}
+img.quiz-type{
+    width: 300px;
+    height: 300px;
+}
+div.instructions{
+    text-align: left;
+    margin-top: 80px;
+}
+.exam-code{
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+    margin: 5px auto;
+    font-size: 28px;
+    width: 350px;
+    text-align: center;
+}
+div.footer{
+    background-color: rgb(248, 248, 248);
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    padding-top: 5px;
+}
+div.footer span{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div.footer span#meron-inc{
+   float: right;
+   margin-right: 10px;
+}
+
